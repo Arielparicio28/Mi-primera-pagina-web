@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(pathum-danthanarayana-kBY8uhuvnT8-unsplash.jpg);
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #efefef;
+    flex-wrap: wrap;
+   /* background-color: #c0c2bd;*/
+   object-fit: contain;
+   
+}
+   
+.card{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background:#fff;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 15px 20px;
+}
+.card .head{
+
+    height: 125px; 
+    width: 100%;
+    position: relative;
+}
+.card .head .circle{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #0b6f72;
+    bottom: 0;
+}
+.card .head .img{
+    position: absolute;
+    background: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    bottom: -30%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.card .head .img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+object-fit: cover;
+}
+
+.card .description{
+    height: 200px;
+    padding: 40px 20px 20px 20px;
+    border-bottom: solid 1px rgba(6,74,76,.18);
+    text-align: center;
+}
+.card .more{
+       height: 75px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+
+}
+.card .more a{
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 2s;
+    background: #157579;
+}
+.card .description p{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.overlay{
+    opacity: 0.5;
+}
+/*
+.texto{
+    width: 100%;
+    color:transparent;
+    text-align: center;
+    text-transform: uppercase;
+   background-image: url("waterfall-g16c918929_1280.jpg");
+   background-size: cover;
+   background-position-y: center;
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+}
