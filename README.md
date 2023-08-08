@@ -3,7 +3,7 @@
 En este proyecto dejo una pequeña descripción acerca de mi y dejo mi información de contactos 
 y mis enlaces a diferentes plataformas,como el nombre lo dice es la primera página web que desarrollo.
 
-Si desea ver el resultado sin abrir un edito de codigo puede seguir el siguiente enlace: https://webariel.netlify.app/
+Si desea ver el resultado sin abrir un editor de código puede seguir el siguiente enlace: https://webariel.netlify.app/
 
 
 ![Alt text](<Captura de pantalla 2023-08-08 170223.png>)
