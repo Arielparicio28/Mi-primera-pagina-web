@@ -1,0 +1,21 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+    border: 2px solid bisque;
+    background-color: rgb(69 70 75 / 50%);
+}
+
+header h2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+}
+
+header h4 {
+    margin: 1rem;
+}

@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.card img {
+    border-radius: 50%;
+    border: 2px solid white;
+    height: 244px;
+}
+
+
+@media(max-width:600px){
+    .card{
+        display: flex;
+        justify-content: center;
+    }
+}
